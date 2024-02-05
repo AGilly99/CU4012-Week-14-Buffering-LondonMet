@@ -18,7 +18,17 @@ public:
 
 private:
 	// Default functions for rendering to the screen.
-	
+	sf::CircleShape circle;
+	float speed;
+
+	sf::RectangleShape Player;
+	float PlayerSpeed;
+
+	// DVD LOGO bouncing
+	sf::CircleShape bouncingShape;
+
+	float bouncingSpeedX;
+	float bouncingSpeedY;
 
 	// Default variables for level class.
 	
